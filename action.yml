@@ -1,0 +1,14 @@
+name: 'gh-action-release-label'
+description: 'An action to generate standard release labels.'
+inputs:
+  prefix:
+    description: 'prefix for the release label'
+    required: true
+    default: 'release-'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    -  ${{ inputs.prefix }}
+    
