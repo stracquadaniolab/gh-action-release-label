@@ -8,6 +8,12 @@ An action to generate standard release labels.
 
 **Required** prefix for the release label. Default: `release-`.
 
+## Outputs
+
+### `release_label`
+
+A label
+
 ## Example usage
 
 ``` 
