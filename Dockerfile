@@ -1,4 +1,4 @@
-FROM stracquadaniolab/slim-container:latest
+FROM stracquadaniolab/vanilla:latest
 
 LABEL org.stracquadaniolab.maintainer="gh-action-release-label"
 LABEL org.stracquadaniolab.version="0.0.1"
