@@ -4,4 +4,6 @@ set -e
 
 PREFIX=$1
 
-echo ::set-output name=release_label::"${PREFIX}${GITHUB_REF#refs/heads/}"
+COMMIT_COUNT=$(git rev-list HEAD | wc -l)
+
+echo ::set-output name=release_label::"${PREFIX}${GITHUB_REF#refs/heads/}-v${COMMIT_COUNT}"
