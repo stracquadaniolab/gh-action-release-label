@@ -1,4 +1,5 @@
 # release-label
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/tag/stracquadaniolab/gh-action-release-label)
 
 An action to generate standard release labels.
 
